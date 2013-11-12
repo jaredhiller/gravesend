@@ -233,7 +233,7 @@ h6 {
 .page-template-template-contact-php #primary,
 .page-template-template-archives-php #primary {
     position: relative;
-    width: 700px; 
+    width: 100%; 
     margin: 0 auto;
 }
 

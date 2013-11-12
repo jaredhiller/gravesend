@@ -23,7 +23,7 @@
 				<!--END .hentry-->
 				</div>
 				
-				<?php comments_template('', true); ?>
+			
 
 				<?php endwhile; endif; ?>
 			
@@ -31,3 +31,7 @@
 			</div>
 
 <?php get_footer(); ?>
+
+
+
+	  

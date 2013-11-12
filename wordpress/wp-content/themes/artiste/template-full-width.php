@@ -29,7 +29,7 @@ Template Name: Full Width
 				<!--END .hentry-->
 				</div>
 				
-				<?php comments_template('', true); ?>
+				
 
 				<?php endwhile; endif; ?>
 			

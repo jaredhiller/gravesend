@@ -81,7 +81,9 @@ h6 { color: #2c2d31; }
 
 #logo a { 
     border-bottom: none;
-    color: #000; 
+    color: #000;
+    line-height: 18px;
+    font-size: 22px; 
 }
 
 

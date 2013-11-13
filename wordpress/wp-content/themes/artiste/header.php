@@ -57,11 +57,11 @@
 			
 			<!-- BEGIN #footer -->
             <div id="footer">
-                <p class="copyright">&copy; <?php echo date( 'Y' ); ?> Artiste</p>
-				<p class="credit">
+                <p class="copyright">&copy; <?php echo date( 'Y' ); ?> Gravesend Recordings</p>
+			<!--	<p class="credit">
 				    <?php _e('Powered by', 'framework') ?> <a href="http://wordpress.org/">WordPress</a><br />
 				    <a href="http://www.themezilla.com/themes/artiste">Artiste</a> by <a href="http://www.themezilla.com">ThemeZilla</a>
-				</p>
+				</p> -->
             </div>
 			<!-- END #footer -->
 			

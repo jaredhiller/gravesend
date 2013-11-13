@@ -69,8 +69,8 @@ h6 { color: #2c2d31; }
 
 #sidebar a,
 #sidebar .tz_tweet_widget span a { 
-    border-bottom: 1px solid #e6eaed;
-    color: #8d8f8f; 
+    border-bottom: none;
+    color: black; 
 }
 
 #sidebar a:hover { color: #f15755; }

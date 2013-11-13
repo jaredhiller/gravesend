@@ -1285,6 +1285,8 @@ label.error { color: red; }
 }
 
 /* Menu Widget ---------------------------*/
+.widget_nav_menu {font-size:16px; }
+
 .widget_nav_menu .sub-menu { margin-left: 10px; }
 
 /* Text Widget ---------------------------*/

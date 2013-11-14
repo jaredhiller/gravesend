@@ -12,7 +12,7 @@
 		<h1 class="entry-title">
 		    <?php the_title(); ?>
 		    <?php if( !empty($portfolioURL) ) { ?>
-		        <a target="_blank" href="<?php echo $portfolioURL; ?>">Launch Project</a>
+		        <a target="_blank" href="<?php echo $portfolioURL; ?>"></a>
 		    <?php } ?>
 		</h1>
 		

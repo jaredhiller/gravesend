@@ -16,6 +16,36 @@
 		    <?php } ?>
 		</h1>
 		
+		
+		
+		<!-- BEGIN .entry-content -->
+		<div class="entry-content-single-portfolio">
+    		
+    		<?php the_content(); ?>
+		
+    		<!-- BEGIN .entry-meta -->
+    		<div class="entry-meta">
+    		    
+    		    <?php 
+    		        // get the meta information and display if supplied
+    		        $portfolioDate = get_post_meta($post->ID, 'tz_portfolio_date', true); 
+    		        $portfolioClient = get_post_meta($post->ID, 'tz_portfolio_client', true);
+                    
+                    if( !empty($portfolioDate) ) {
+                        echo '<h4>' . __('Date', 'framework') . '</h4>';
+                        echo '<p>' . $portfolioDate . '</p>';
+                    }
+		            
+		            if( !empty($portfolioClient) ) {
+		                echo '<h4>' . __('Client', 'framework') . '</h4>';
+		                echo '<p>' . $portfolioClient . '</p>';
+		            }
+		            
+		            the_terms($post->ID, 'skill-type', '<h4>' . __('Skills', 'framework') . '</h4>', '<br />', ''); 
+		        ?>
+		        
+    		<!-- END .entry-meta -->
+    		</div>
 		<?php // get the media elements
 		    
 		    switch( $mediaType ) {
@@ -46,36 +76,6 @@
                     break;
             }
 		?>
-		
-		<!-- BEGIN .entry-content -->
-		<div class="entry-content-single-portfolio">
-    		
-    		<?php the_content(); ?>
-		
-    		<!-- BEGIN .entry-meta -->
-    		<div class="entry-meta">
-    		    
-    		    <?php 
-    		        // get the meta information and display if supplied
-    		        $portfolioDate = get_post_meta($post->ID, 'tz_portfolio_date', true); 
-    		        $portfolioClient = get_post_meta($post->ID, 'tz_portfolio_client', true);
-                    
-                    if( !empty($portfolioDate) ) {
-                        echo '<h4>' . __('Date', 'framework') . '</h4>';
-                        echo '<p>' . $portfolioDate . '</p>';
-                    }
-		            
-		            if( !empty($portfolioClient) ) {
-		                echo '<h4>' . __('Client', 'framework') . '</h4>';
-		                echo '<p>' . $portfolioClient . '</p>';
-		            }
-		            
-		            the_terms($post->ID, 'skill-type', '<h4>' . __('Skills', 'framework') . '</h4>', '<br />', ''); 
-		        ?>
-		        
-    		<!-- END .entry-meta -->
-    		</div>
-		
 		<!-- END .entry-content -->
 		</div>
 		

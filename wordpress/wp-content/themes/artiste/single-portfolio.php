@@ -9,7 +9,7 @@
 	    
 	    <?php $portfolioURL = get_post_meta($post->ID, 'tz_portfolio_url', true); ?>
 		
-		<h1 class="entry-title">
+		<h1 class="entry-title-single-portfolio">
 		    <?php the_title(); ?>
 		    <?php if( !empty($portfolioURL) ) { ?>
 		        <a target="_blank" href="<?php echo $portfolioURL; ?>"></a>
@@ -46,6 +46,9 @@
 		        
     		<!-- END .entry-meta -->
     		</div>
+		
+		<!-- END .entry-content -->
+		</div>
 		<?php // get the media elements
 		    
 		    switch( $mediaType ) {
@@ -76,9 +79,6 @@
                     break;
             }
 		?>
-		<!-- END .entry-content -->
-		</div>
-		
 		<?php $related_ports = get_option('tz_portfolio_related');
 		if( !empty($related_ports) || $related_ports != '0' ) { 
 		    $related = get_posts_related_by_taxonomy($post->ID, 'skill-type', array('posts_per_page' => $related_ports));

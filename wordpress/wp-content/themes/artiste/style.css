@@ -211,6 +211,12 @@ h6 {
 	margin-bottom: 25px;
 }
 
+.entry-title-single-portfolio,
+.entry-title-single-portfolio a {
+	margin-bottom: 10px;
+	font-size: 45px;
+}
+
 .entry-title a:hover { color: #f15755; }
 
 /* Common Layout --------------------------------*/

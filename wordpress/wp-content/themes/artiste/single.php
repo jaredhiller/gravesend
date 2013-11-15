@@ -16,14 +16,14 @@
 					       <h4><?php _e('Posted', 'framework') ?></h4>
 					       <span><?php the_time( get_option('date_format') ); ?></span>
 					                           
-					                           <h4><?php _e('Categories', 'framework'); ?></h4>
+					                        <!--   <h4><?php _e('Categories', 'framework'); ?></h4>
 					                           <span><?php the_category('<br />'); ?></span>
-					                           
+					                   -->        
 					                           <?php the_tags('<h4>' . __('Tags', 'framework') . '</h4><span>', '<br />', '</span>' ); ?>
 					       
-					       <h4>Comments</h4>
+					<!--       <h4>Comments</h4>
 					       <span class="comment-count"><?php comments_popup_link(__('No Comments', 'framework'), __('1 Comment', 'framework'), __('% Comments', 'framework')); ?></span>
-					       
+					       -->
 					       <?php if( is_user_logged_in() ) { echo '<h4>' . __('Edit', 'framework') . '</h4>'; } ?>
 					       <?php edit_post_link( __('edit', 'framework'), '<span class="edit-post">[', ']</span>' ); ?>
 					   <!--END .entry-meta -->
@@ -50,11 +50,12 @@
 				<!--END .hentry-->  
 				</div>
                 
-          <!--      <?php comments_template('', true); ?> -->
+            
                 
 				<?php endwhile; ?>
             
-            <?php if( !is_attachment() ) { ?>
+            <?php if( !is_attachment() ) { ?> 
+
 			<!--BEGIN .navigation .single-page-navigation -->
 			<div class="navigation single-page-navigation clearfix">
 

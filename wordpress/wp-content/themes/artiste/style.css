@@ -844,7 +844,7 @@ button:hover {
 .single-portfolio #content { margin-right: 30px; }
 
 .single-portfolio #primary { 
-    margin: 0 auto;
+    margin: 0 10px;
     width: 700px; 
 }
 

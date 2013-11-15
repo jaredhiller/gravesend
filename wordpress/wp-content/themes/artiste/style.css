@@ -232,7 +232,7 @@ h6 {
 .error404 #primary { /* updates should correspond with .blog #content */
     position: relative;
     width: 540px; 
-    margin: 0 auto;
+    margin: 0 0;
 }
 
 .page-template-default #primary,

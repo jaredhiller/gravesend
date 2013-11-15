@@ -48,7 +48,7 @@
 		?>
 		
 		<!-- BEGIN .entry-content -->
-		<div class="entry-content">
+		<div class="entry-content-single-portfolio">
     		
     		<?php the_content(); ?>
 		

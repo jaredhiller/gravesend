@@ -297,6 +297,12 @@ h6 {
     width: 540px; 
 }
 
+.entry-content-single-portfolio{
+	 overflow: hidden;
+    	width: 700px; 
+
+}
+
 .page .entry-content { width: inherit; }
 
 

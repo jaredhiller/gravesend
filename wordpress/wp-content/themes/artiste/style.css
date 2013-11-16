@@ -215,6 +215,7 @@ h6 {
 .entry-title-single-portfolio a {
 	margin-bottom: 10px;
 	font-size: 45px;
+	line-height: 40px;
 }
 
 .entry-title a:hover { color: #f15755; }

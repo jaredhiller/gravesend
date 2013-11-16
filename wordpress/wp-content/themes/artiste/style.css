@@ -1156,11 +1156,11 @@ button:hover {
 
 .page-navigation .nav-next,
 .single-page-navigation .nav-next,
-.single-portfolio-navigation .nav-next { float: left; }
+.single-portfolio-navigation .nav-next { float: left; font-size: 18px; }
 
 .page-navigation .nav-previous,
 .single-page-navigation .nav-previous,
-.single-portfolio-navigation .nav-previous { float: right; }
+.single-portfolio-navigation .nav-previous { float: right; font-size: 18px; }
 
 .single-page-navigation { 
     border-top: 1px solid #cdd0d2; 

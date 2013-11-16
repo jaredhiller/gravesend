@@ -123,7 +123,7 @@
         <!--BEGIN .navigation .single-portfolio-navigation -->
         <div class="navigation single-portfolio-navigation clearfix">
 
-      <!--  	<div class="nav-next"><?php next_post_link('&larr; %link'); ?></div>
+        	<div class="nav-next"><?php next_post_link('&larr; %link'); ?></div>
         	<div class="nav-previous"><?php previous_post_link('%link &rarr;'); ?></div>
 
         <!--END .navigation .single-portfolio-navigation -->

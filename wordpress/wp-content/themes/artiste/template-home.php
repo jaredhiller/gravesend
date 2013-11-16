@@ -53,4 +53,5 @@ Template Name: Home Template
 			<!--END #primary .hfeed-->
 			</div>
 
+<p style="font-size:18px;"><a href="http://localhost:8888/gravesend/wordpress/additional-credits/">Additional Credits</a></p>
 <?php get_footer(); ?>

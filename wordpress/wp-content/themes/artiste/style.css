@@ -1196,8 +1196,7 @@ p.page-navigation { clear: both; }
 
 .copyright { margin-bottom: 0; }
 
-.credit {  }
-
+.credit { font-size:12px; margin-top: 8px }
 
 /*-----------------------------------------------------------------------------------*/
 /*	10.	Page & Page Templates

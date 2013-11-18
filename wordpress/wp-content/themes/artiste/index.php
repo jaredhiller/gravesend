@@ -16,7 +16,7 @@
     					    <h4><?php _e('Posted', 'framework') ?></h4>
     					    <span><?php the_time( get_option('date_format') ); ?></span>
                         
-                            <h4><?php _e('Categories', 'framework'); ?></h4>
+                   <!--         <h4><?php _e('Categories', 'framework'); ?></h4>
                             <span><?php the_category('<br />'); ?></span>
                         
                             <?php the_tags('<h4>' . __('Tags', 'framework') . '</h4><span>', '<br />', '</span>' ); ?>

@@ -59,7 +59,7 @@
             <div id="footer">
                 <p class="copyright">&copy; <?php echo date( 'Y' ); ?> Gravesend Recordings</p>
 				<p class="credit">
-					<a href="mailto:gravesendrecordings@gmail.com">gravesendrecording@gmail.com</a>
+					<a href="mailto:gravesendrecordings@gmail.com">gravesendrecordings@gmail.com</a>
 			<!--	    <?php _e('Powered by', 'framework') ?> <a href="http://wordpress.org/">WordPress</a><br />
 				    <a href="http://www.themezilla.com/themes/artiste">Artiste</a> by <a href="http://www.themezilla.com">ThemeZilla</a>
 				</p> -->

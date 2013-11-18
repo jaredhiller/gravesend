@@ -16,22 +16,22 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-//define('DB_NAME', 'gravesend');
+define('DB_NAME', 'gravesend');
 
 /** MySQL database username */
-//define('DB_USER', 'root');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-//define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
-//define('DB_HOST', 'localhost:8888');
+define('DB_HOST', 'localhost:8888');
 
 /** Database Charset to use in creating database tables. */
-//define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
-//define('DB_COLLATE', '');
+define('DB_COLLATE', '');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -42,14 +42,14 @@
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'J%B30OqM f]5>)9`,hU6u5y:M/+A<^G |~|WJIazE}W(}3F=K.|5o;z[+Un!83i1');
+define('SECURE_AUTH_KEY',  'iI)u:d^:I?|w$+xCgxB!} I@V9e2I-UgFdO!N1Z4`qzh-MOIt`Ghf~nF0^(&vOMF');
+define('LOGGED_IN_KEY',    '@1T Y:W)~|m4U.%RY~xCh!_:OM<o[.YWKdOq%:uWFXuH-iTmb5B>o *cF-It5}7w');
+define('NONCE_KEY',        '&[y[u)_.s[oPBQIe[_SQdA`p5dM$20rV@#dw|XraHY_=@H3BRiq,jpU%vg}8X?0B');
+define('AUTH_SALT',        '0{$O`Xgy[!z7&?W)K)n&W.p<zH{.?nnZ9&eVNw3:QX`lM+G%u0pee[z&bUp+.9}E');
+define('SECURE_AUTH_SALT', '|fLY*OY.|Nj<}/QLIi+ :E/Vn%@^a*EN89nC/uuB6`>%62T{~E3y^*clcp&v1so1');
+define('LOGGED_IN_SALT',   'M]O,NyRO|d2&dIL~PeeXo`>zFevQ .9<o-ITTu!CXY%|=)#K@r]i%&(T(~ :?OoK');
+define('NONCE_SALT',       'SVtfN[d8X}iVr1`<4jE(ZHWcphO2N|[DH+-:Gen5*0&9/1bn{--l-a[TuO]S;J&Q');
 
 /**#@-*/
 

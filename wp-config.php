@@ -16,22 +16,22 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'gravesend');
+//define('DB_NAME', 'gravesend');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+//define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+//define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost:8888');
+//define('DB_HOST', 'localhost:8888');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+//define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
+//define('DB_COLLATE', '');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -88,3 +88,17 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+// Heroku Postgres settings
+if (isset($_ENV["DATABASE_URL"])) 
+{
+    $db = parse_url($_ENV["DATABASE_URL"]);
+    define('DB_NAME', trim($db["path"],"/"));
+    define('DB_USER', $db["user"]);
+    define('DB_PASSWORD', $db["pass"]);
+    define('DB_HOST', $db["host"]);
+} 
+else 
+{
+    die("Can't determine database settings from DATABASE_URL\n");
+}

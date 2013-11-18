@@ -183,9 +183,10 @@ h6 {
 .entry-content h6,
 .page-title,
 .single-portfolio .entry-title,
-.blog .entry-title,
 .single .entry-title,
-.archive .entry-title { font-family: 'PT Serif', Serif; }
+.archive .entry-title { font-family: Helvetica }
+
+.blog .entry-title { font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif}
 
 .tax-skill-type .entry-title { font-family: 'Helvetica Neue', Helvetica, sans-serif; }
 
@@ -984,6 +985,7 @@ button:hover {
 .entry-meta span { 
     display: inline-block;
     margin-bottom: 10px;
+    font-family: Arial;
 }
 
 .entry-meta p { margin-bottom: 10px; }
